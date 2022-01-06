@@ -17,6 +17,7 @@
     position: fixed;
     width: 100%;
     z-index: 1;
+    height: 7.4vh;
     /* background: transparent !important; */
     /* background-color: chartreuse; */
 }
@@ -65,20 +66,59 @@
     align-items: center;
 }
 
-@media screen and(max-width:602px) {
-    .home-self {
-        padding: 2em;
-        text-align: center;
-    }
+.btn{
+    
+    border: 1px solid white;
+    color: white !important;
 }
 
-@media screen and(max-width:430px) {
-    .home-container {
-        justify-content: center;
-        align-items: left;
-    }
-    .home-self {
-        width: 100%;
-        text-align: center;
-    }
+#about{
+    height: 103vh;
+    background:linear-gradient(rgba(0,0,0,0.5),#75BCEA )
+}
+.about-head{
+
+}
+.about-container{
+    height: 92.8vh;
+    position: relative;
+    top: 7.4vh;
+    padding-top: 0.5em;
+}
+.about-head{
+    margin-top: 1em !important;
+}
+.about-self-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-self{
+    margin-top: .5em;
+    padding: 2em;
+    width: 60%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+}
+.about-achive-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.about-achive-card{
+    height: 8em;
+    background: transparent;
+    border: 1px solid white;
+    text-align: center;
+    padding: 1em;
+    color: black;
+    margin: auto;
+}
+
+.fab{
+    font-size: 28px;
 }
