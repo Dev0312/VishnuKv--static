@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+#home {
+    position: relative;
+    height: 100vh;
+    background: url('https://www.cyberworx.in/images/services/website-startups.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    /* background: transparent !important; */
+    /* background-color: chartreuse; */
+}
+
+.navbar-brand {
+    margin-left: 5em;
+    font-weight: bold;
+}
+
+.collapse {}
+
+.navbar-nav {
+    margin-right: 4em !important;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    margin-right: 1em;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.home-container {
+    position: absolute;
+    top: 7.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92.6vh;
+}
+
+.home-self {
+    padding: 5em;
+    text-align: left;
+    color: white;
+}
+
+.home-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and(max-width:602px) {
+    .home-self {
+        padding: 2em;
+        text-align: center;
+    }
+}
+
+@media screen and(max-width:430px) {
+    .home-container {
+        justify-content: center;
+        align-items: left;
+    }
+    .home-self {
+        width: 100%;
+        text-align: center;
+    }
+}
