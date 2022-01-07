@@ -133,3 +133,53 @@
     top: 7.4vh;
     padding-top: 0.5em;
 }
+
+#contact{
+    height: 100vh;
+    background: linear-gradient(rgba(0.0.0.0.5),#D5DBDB );
+}
+.contact-cont{
+    height: 92.8vh;
+    position: relative;
+    top: 7.4vh;
+    padding-top: 0.5em;
+}
+
+.contact-card{
+    height: 10em;
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.fas,.fab{
+    margin-right: auto;
+    margin-top: 1em;
+    font-size: 20px;
+}
+.contact-card-p{
+    text-align: left   ;
+}
+.form-control{
+    height: 4em !important;
+}
+.contact-btn-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form-btn{
+    width: 50%;
+}
+    
+.contact-google-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px; 
+    height: 400px;
+}
+.contact-googlemap-frame{
+    width: 600px; 
+    height: 400px;
+}
